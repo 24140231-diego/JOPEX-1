@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+     <!-- Equipo de Jopex  -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jopex - Salud y Bienestar | Agenda 2030</title>
+
+
+  <!-- Estilos internos -->
+  <style>
+    :root {
+      --verde: #2ecc71;
+      --rojo: #ffffff;
+      --blanco: #ffffff;
+      --gris: #f4f4f4;
+    }
+
+
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: var(--gris);
+      color: #333;
+    }
+
+
+    header {
+      background: linear-gradient(90deg, var(--verde), var(--rojo));
+      color: var(--blanco);
+      text-align: center;
+      padding: 20px;
+    }
+
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+
+    nav a {
+      color: var(--blanco);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+
+    nav a.activo {
+      border-bottom: 2px solid var(--blanco);
+    }
+
+
+    section, main {
+      display: none;
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: var(--blanco);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+
+    section.activo, main.activo {
+      display: block;
+    }
+
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: var(--blanco);
+      border-radius: 10px;
+    }
+
+
+    .hero h2 {
+      color: var(--verde);
+      font-size: 2em;
+    }
+
+
+    .btn {
+      background-color: var(--verde);
+      color: var(--blanco);
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+
+    .btn:hover {
+      background-color: var(--rojo);
+    }
+
+
+    .tarjetas {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+
+    .tarjeta {
+      background: var(--verde);
+      color: var(--blanco);
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+
+    .tarjeta:hover {
+      background: var(--rojo);
+      transform: scale(1.05);
+    }
+
+
+    footer {
+      background-color: var(--verde);
+      color: var(--blanco);
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+
+    .social img {
+      width: 30px;
+      margin: 0 5px;
+    }
+
+
+    blockquote {
+      background-color: var(--gris);
+      border-left: 5px solid var(--verde);
+      padding: 15px;
+      font-style: italic;
+    }
+
+
+    .ods-img {
+      display: block;
+      margin: 20px auto;
+      width: 150px;
+    }
+
+
+    #dato {
+      margin-top: 20px;
+      font-weight: bold;
+      color: var(--verde);
+    }
+  </style>
+</head>
+
+
+<body>
+<!-- Barra de navegación principal -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #004D7A;">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-white" href="index.html">
+      JOPEX
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav2">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="opcion2.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active text-white fw-semibold" href="index.html">Salud y Bienestar</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="opcion3.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="mision.html">Misión</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="opcion1.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="FODA.html">FODA</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <header>
+    <h1>Jopex: Salud y Bienestar</h1>
+    <nav>
+      <ul>
+        <li><a href="#" class="link activo" data-seccion="inicio">Inicio</a></li>
+        <li><a href="#" class="link" data-seccion="objetivo">El Objetivo</a></li>
+        <li><a href="#" class="link" data-seccion="acciones">Acciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Página de inicio -->
+  <section id="inicio" class="activo">
+    <div class="hero">
+      <h2>Garantizar una vida sana y promover el bienestar para todos</h2>
+      <p>El acceso a la salud es un derecho humano fundamental. La empresa de JOPEX busca que todas las personas tengan servicios de salud de calidad sin importar su origen ni situación económica.</p>
+      <a href="#" class="btn" data-seccion="objetivo">Conoce más</a>
+    </div>
+  </section>
+
+
+  <!-- Página del objetivo -->
+  <main id="objetivo">
+    <h2>¿Qué busca el Objetivo 3?</h2>
+    <p>El <strong>Objetivo de Desarrollo Sostenible 3</strong> busca garantizar una vida sana y promover el bienestar para todos en todas las edades. Entre sus principales metas se incluyen:</p>
+    <ul>
+      <li>Reducir la mortalidad materna e infantil.</li>
+      <li>Combatir enfermedades como el VIH, malaria y tuberculosis.</li>
+      <li>Lograr cobertura sanitaria universal.</li>
+      <li>Promover la salud mental y el bienestar emocional.</li>
+    </ul>
+
+
+    <blockquote>“No hay desarrollo sin salud, ni salud sin desarrollo sostenible.”</blockquote>
+
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sustainable_Development_Goal_3.png" alt="ODS 3 Logo" class="ods-img">
+
+
+    <p class="fuente">Fuente: <a href="https://www.un.org/sustainabledevelopment/es/health/" target="_blank">ONU - Objetivo 3</a></p>
+  </main>
+
+
+  <!-- Página de acciones -->
+  <main id="acciones">
+    <h2>¿Qué podemos hacer?</h2>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <h3>Cuida tu salud</h3>
+        <p>Adopta hábitos saludables: alimentación balanceada, ejercicio y descanso adecuado.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Apoya programas locales</h3>
+        <p>Participa en campañas de vacunación y promoción de la salud en tu comunidad.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Difunde información</h3>
+        <p>Comparte en redes sociales datos sobre el acceso a la salud y bienestar.</p>
+      </div>
+    </div>
+
+
+    <button id="btnDato" class="btn" style="margin-top:20px;">Dato curioso sobre salud</button>
+    <p id="dato"></p>
+  </main>
+
+
+  <footer>
+    <p>© 2025 Salud 2030 | Inspirado en los ODS de la ONU</p>
+    <div class="social">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Twitter"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733614.png" alt="Instagram"></a>
+    </div>
+    Equipo de Jopex:Elaborado por Oscar Montiel Lider y Director de Laboratio 3106
+  </footer>
+
+
+  <!-- Script interno -->
+  <script>
+    // Cambiar secciones sin recargar
+    const links = document.querySelectorAll(".link");
+    const secciones = document.querySelectorAll("section, main");
+
+
+    links.forEach(link => {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+        const destino = link.dataset.seccion;
+
+
+        secciones.forEach(sec => sec.classList.remove("activo"));
+        document.getElementById(destino).classList.add("activo");
+
+
+        links.forEach(l => l.classList.remove("activo"));
+        link.classList.add("activo");
+      });
+    });
+
+
+    // Dato curioso
+    const btn = document.getElementById("btnDato");
+    const dato = document.getElementById("dato");
+
+
+    const datos = [
+      "La OMS estima que 1 de cada 4 personas sufrirá un trastorno mental en su vida.",
+      "Más del 50% de las enfermedades se pueden prevenir con buenos hábitos.",
+      "La vacunación salva entre 2 y 3 millones de vidas cada año.",
+      "El ejercicio regular puede reducir el riesgo de enfermedades crónicas en un 30%."
+    ];
+
+
+    if (btn) {
+      btn.addEventListener("click", () => {
+        const random = Math.floor(Math.random() * datos.length);
+        dato.textContent = datos[random];
+      });
+    }
+    <!-- Equipo de Jopex  -->
+  </script>
+</body>
+</html>
