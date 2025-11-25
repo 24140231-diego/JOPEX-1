@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FODA - Salud y Bienestar | JOPEX</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #f4f8fa;
+      margin: 0;
+      padding: 0;
+      color: #ffffff;
+    }
+
+    /* Barra principal */
+    .navbar-primary {
+      background-color: #004D7A;
+    }
+    .navbar-primary .navbar-brand span {
+      color: white;
+      font-weight: 700;
+      font-size: 1.4rem;
+      margin-left: 8px;
+    }
+    .navbar-primary img {
+      border-radius: 8px;
+    }
+
+    /* Segunda barra */
+    .navbar-secondary {
+      background-color: #006699;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 1rem;
+    }
+
+    /* Contenedor principal */
+    main {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 30px;
+    }
+
+    /* Tarjeta de introducción */
+    .intro-card {
+      background-color: #004D7A;
+      color: white;
+      padding: 35px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 77, 122, 0.3);
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .intro-card h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .intro-card p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+    .intro-card h4 {
+      color: #9ed3ff;
+      margin-top: 25px;
+      font-weight: 600;
+    }
+
+    /* Tarjetas FODA */
+    .card {
+      border: none;
+      border-radius: 15px;
+      background-color: #004D7A;
+      color: white;
+      box-shadow: 0 4px 15px rgba(0, 77, 122, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 25px rgba(0, 77, 122, 0.45);
+    }
+    .card img {
+      border-radius: 15px 15px 0 0;
+      height: 160px;
+      object-fit: cover;
+    }
+    .card-title {
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .card-text ul {
+      padding-left: 20px;
+      font-size: 0.95rem;
+      color: #eaf4f8;
+    }
+
+    /* Enlaces */
+    .links {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .links h3 {
+      color: #004D7A;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .links a img {
+      width: 75px;
+      height: 75px;
+      border-radius: 10px;
+      margin: 10px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 77, 122, 0.3);
+    }
+    .links a img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #004D7A;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+
+<body>
+<!-- Barra de navegación principal -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #004D7A;">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-white" href="index.html">
+      
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav2">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="opcion2.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active text-white fw-semibold" href="index.html">Salud y Bienestar</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="opcion3.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="mision.html">Misión</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="opcion1.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="FODA.html">FODA</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Navbar principal -->
+  <nav class="navbar navbar-primary">
+    <div class="container-fluid d-flex align-items-center">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="https://static.vecteezy.com/system/resources/previews/022/362/195/non_2x/health-care-wellness-logo-template-free-vector.jpg" alt="Logo" width="70" height="50">
+        <span>JOPEX</span>
+      </a>
+    </div>
+  </nav>
+  
+
+  <!-- Segunda barra -->
+  <div class="navbar-secondary">
+    <p>Salud y Bienestar | Análisis FODA | Diagnóstico Estratégico | Mejora Continua</p>
+  </div>
+
+  <!-- Contenido principal -->
+  <main>
+
+    <!-- Tarjeta de introducción -->
+    <div class="intro-card">
+      <h2>FODA: Salud y Bienestar</h2>
+      <p>
+        El análisis FODA permite obtener un diagnóstico preciso de la situación actual de la organización,
+        facilitando la toma de decisiones estratégicas que impulsan la salud y el bienestar dentro de la comunidad.
+      </p>
+      <h4>Uso</h4>
+      <p>
+        • Diagnóstico estratégico de la situación actual.<br>
+        • Toma de decisiones informadas y mejora continua.<br>
+        • Identificación de áreas de oportunidad y prevención de riesgos.<br>
+        • Evaluación de la viabilidad de proyectos de salud y bienestar.
+      </p>
+      <h4>FODA en Salud y Bienestar</h4>
+      <p>
+        El FODA en este contexto ayuda a fortalecer programas de atención, mejorar los recursos humanos y tecnológicos,
+        y garantizar una cobertura equitativa y de calidad para todas las personas.
+      </p>
+    </div>
+
+    <!-- Tarjetas FODA -->
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <!-- Fortalezas -->
+      <div class="col">
+        <div class="card">
+          <img src="https://static.vecteezy.com/system/resources/previews/002/775/276/non_2x/fortress-fort-line-icon-on-dark-vector.jpg" alt="Fortalezas" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Fortalezas</h5>
+            <ul>
+              <li>Programas de prevención y promoción de la salud.</li>
+              <li>Profesionales capacitados en bienestar.</li>
+              <li>Acceso a centros de atención básica.</li>
+              <li>Conciencia social sobre el autocuidado.</li>
+              <li>Integración de la salud mental en el bienestar general.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Oportunidades -->
+      <div class="col">
+        <div class="card">
+          <img src="https://thumbs.dreamstime.com/b/icono-de-ne%C3%B3n-l%C3%ADnea-oportunidades-la-ilustraciones-empresariales-elementos-los-signos-y-s%C3%ADmbolos-se-pueden-utilizar-para-web-157595084.jpg" alt="Oportunidades" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Oportunidades</h5>
+            <ul>
+              <li>Avances en medicina digital y telemedicina.</li>
+              <li>Mayor inversión en infraestructura hospitalaria.</li>
+              <li>Campañas globales de promoción de la salud mental.</li>
+              <li>Innovación tecnológica en diagnósticos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Debilidades -->
+      <div class="col">
+        <div class="card">
+          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSU3y16v-mNvZqakr4gN2MHQ2n_ah9YKA2YCN4zfhkiRGza97Kp" alt="Debilidades" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Debilidades</h5>
+            <ul>
+              <li>Desigualdad en el acceso a servicios de salud.</li>
+              <li>Escasez de personal médico en zonas rurales.</li>
+              <li>Baja educación en salud preventiva.</li>
+              <li>Desinformación sobre bienestar integral.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Amenazas -->
+      <div class="col">
+        <div class="card">
+          <img src="https://img.freepik.com/fotos-premium/senal-advertencia-neon-color-azul-sobre-fondo-negro-icono-advertencia-advertencia-peligro-senal-atencion-simbolo-exclamacion_920779-800.jpg?w=360" alt="Amenazas" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Amenazas</h5>
+            <ul>
+              <li>Aumento de enfermedades crónicas.</li>
+              <li>Impacto del estrés y los factores socioeconómicos.</li>
+              <li>Pandemias y crisis sanitarias globales.</li>
+              <li>Contaminación ambiental y cambio climático.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Enlaces -->
+    
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 JOPEX — Salud y Bienestar</p>
+  </footer>
+
+</body>
+</html>
