@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salud y Bienestar - JOPEX</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4f8fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Barra principal */
+    .navbar-main {
+      background-color: #004D7A !important;
+    }
+
+    .navbar-main .navbar-brand p {
+      color: white;
+      font-size: 1.2rem;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    /* Barra secundaria */
+    .navbar-secondary {
+      background-color: #006da3;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    /* Carrusel */
+    .carousel-item img {
+      border-radius: 15px;
+      object-fit: cover;
+      height: 450px;
+    }
+
+    .carousel-caption {
+      background-color: rgba(0, 77, 122, 0.75);
+      border-radius: 10px;
+      padding: 15px;
+    }
+
+    .carousel-caption h5 {
+      color: white;
+      font-weight: 600;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(1);
+    }
+
+    /* Tarjetas oscuras */
+    .card {
+      border: none;
+      border-radius: 15px;
+      background-color: #00385A; /* tono más oscuro */
+      box-shadow: 0 4px 12px rgba(0, 77, 122, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0, 77, 122, 0.6);
+    }
+
+    .card-title {
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    .card-text {
+      color: #f1f1f1;
+    }
+
+    /* Enlaces e iconos */
+    a img {
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    a img:hover {
+      transform: scale(1.1);
+    }
+
+    h1 {
+      color: #004D7A;
+      font-weight: 700;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+<!-- Barra de navegación principal -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #004D7A;">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-white" href="index.html">
+      
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav2">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="opcion2.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active text-white fw-semibold" href="index.html">Salud y Bienestar</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="opcion3.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="mision.html">Misión</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="opcion1.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="FODA.html">FODA</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Barra principal (logo + nombre) -->
+  <nav class="navbar navbar-main">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="https://static.vecteezy.com/system/resources/previews/022/362/195/non_2x/health-care-wellness-logo-template-free-vector.jpg"
+             alt="Logo" width="70" height="50" class="me-2 rounded">
+        <p>JOPEX</p>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Barra secundaria -->
+  <div class="navbar-secondary">
+    Salud y Bienestar Integral — Promoviendo hábitos saludables y acceso equitativo
+  </div>
+
+  <!-- Carrusel -->
+  <div id="carouselExampleIndicators" class="carousel slide mt-3 container" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner rounded shadow">
+      <div class="carousel-item active">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5XPpB9JBDgGjfX2NxwMzIJ4P-piqVi89Zox_y7CJcDFxhawcy" class="d-block w-100" alt="Promover la salud integral">
+        <div class="carousel-caption">
+          <h5>Promover la salud integral</h5>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRkN9_uMTGhT0ZdHsXzhnjzY8M6H5zL_2_LATjjOuVUOjrnSjap" class="d-block w-100" alt="Garantizar el acceso equitativo">
+        <div class="carousel-caption">
+          <h5>Garantizar el acceso equitativo a servicios de salud</h5>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="Fomentar el bienestar">
+        <div class="carousel-caption">
+          <h5>Fomentar el bienestar físico y mental</h5>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- Tarjetas de misión -->
+  <div class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-3">
+          <div class="card-body">
+            <h5 class="card-title">¿Cuál es nuestra misión?</h5>
+            <p class="card-text">
+              Nuestra misión en JOPEX es promover el bienestar físico, mental y social de las personas mediante programas de salud preventivos, educativos y accesibles.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card p-3">
+          <div class="card-body">
+            <h5 class="card-title">¿Cómo la cumplimos?</h5>
+            <p class="card-text">
+              A través de campañas de concientización, acceso equitativo a servicios médicos, atención a comunidades vulnerables y fomento de hábitos de vida saludables.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Enlaces finales -->
+  
+</body>
+</html>
