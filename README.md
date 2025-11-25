@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<div class="stat-card text-center">
+<h3>6,000,000+</h3>
+<p>Niños que mueren cada año antes de los 5 años (estimación global)</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="stat-card text-center">
+<h3>2x</h3>
+<p>Probabilidad de mortalidad infantil en niños en pobreza vs ricos</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="stat-card text-center">
+<h3>Cobertura</h3>
+<p>Trabajo hacia la cobertura universal de salud y vacunas seguras.</p>
+</div>
+</div>
+</div>
+
+<div class="mt-4">
+<h5>Accesibilidad y Aceptabilidad</h5>
+<ul>
+<li>Servicios asequibles y físicamente accesibles para todas las personas.</li>
+<li>Servicios respetuosos de la ética médica y culturalmente apropiados.</li>
+</ul>
+</div>
+</div>
+
+<footer class="footer" style="background:#003a73; color:#fff; padding:20px"><div class="container text-center">© 2025 JOPEX</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!-- ======================= contact.html ======================= -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JOPEX · Contacto</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+<style>body{font-family:Inter, Arial; background:#f4faff} .navbar{background:#003a73} .contact-card{background:#fff; padding:24px; border-radius:12px; box-shadow:0 10px 30px rgba(3,22,39,0.06)}</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<a class="navbar-brand fw-bold" href="index.html">JOPEX</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav2">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav2">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="opcion2.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link active" href="index.html">Salud y Bienestar</a></li>
+<li class="nav-item"><a class="nav-link" href="opcion3.html">Servicios</a></li>
+<li class="nav-item"><a class="nav-link" href="mision.html">Mision</a></li>
+<li class="nav-item"><a class="nav-link" href="opcion1.html">Contacto</a></li>
+<li class="nav-item"><a class="nav-link" href="FODA.html">FODA</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container py-5">
+<div class="row g-4">
+<div class="col-lg-6">
+<div class="contact-card">
+<h3 style="color:#003a73">Contáctanos</h3>
+<p>Completa el formulario y nos pondremos en contacto contigo.</p>
+<!-- Formulario (envío simulado) -->
+<form id="contactForm" onsubmit="event.preventDefault(); alert('Gracias — hemos recibido tu mensaje.');">
+<div class="mb-3">
+<label class="form-label">Nombre</label>
+<input class="form-control" required>
+</div>
+<div class="mb-3">
+<label class="form-label">Correo</label>
+<input type="email" class="form-control" required>
+</div>
+<div class="mb-3">
+<label class="form-label">Mensaje</label>
+<textarea class="form-control" rows="4" required></textarea>
+</div>
+<div class="d-flex gap-2">
+<button class="btn btn-primary btn-pill" type="submit">Enviar</button>
+<a class="btn btn-outline-success btn-pill" href="https://wa.me/525512345678?text=Hola%20JOPEX%2C%20quiero%20informaci%C3%B3n" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+</div>
+</form>
+
+<hr class="my-4">
+<h6>Información</h6>
+<p><i class="bi bi-telephone"></i> +52 55 1234 5678 &nbsp; <i class="bi bi-envelope"></i> info@jopex.com</p>
+</div>
+</div>
+
+<div class="col-lg-6">
+<div class="contact-card">
+<h5>Ubicación</h5>
+<!-- Mapa embebido (reemplaza la query por la ubicación real) -->
+<div style="width:100%; height:320px; border-radius:8px; overflow:hidden">
+<iframe src="https://www.google.com/maps?q=Mexico%20City&output=embed" style="border:0; width:100%; height:100%" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<p class="mt-3 mb-0"><strong>Horario:</strong> Lun-Vie 9:00 - 18:00</p>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="footer" style="background:#003a73; color:#fff; padding:20px"><div class="container text-center">© 2025 JOPEX</div></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html><!DOCTYPE html>
+<div class="stat-card text-center">
+<h3>6,000,000+</h3>
+<p>Niños que mueren cada año antes de los 5 años (estimación global)</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="stat-card text-center">
+<h3>2x</h3>
+<p>Probabilidad de mortalidad infantil en niños en pobreza vs ricos</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="stat-card text-center">
+<h3>Cobertura</h3>
+<p>Trabajo hacia la cobertura universal de salud y vacunas seguras.</p>
+</div>
+</div>
+</div>
+
+<div class="mt-4">
+<h5>Accesibilidad y Aceptabilidad</h5>
+<ul>
+<li>Servicios asequibles y físicamente accesibles para todas las personas.</li>
+<li>Servicios respetuosos de la ética médica y culturalmente apropiados.</li>
+</ul>
+</div>
+</div>
+
+<footer class="footer" style="background:#003a73; color:#fff; padding:20px"><div class="container text-center">© 2025 JOPEX</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!-- ======================= contact.html ======================= -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JOPEX · Contacto</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+<style>body{font-family:Inter, Arial; background:#f4faff} .navbar{background:#003a73} .contact-card{background:#fff; padding:24px; border-radius:12px; box-shadow:0 10px 30px rgba(3,22,39,0.06)}</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<a class="navbar-brand fw-bold" href="index.html">JOPEX</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav2">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav2">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="opcion2.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link active" href="index.html">Salud y Bienestar</a></li>
+<li class="nav-item"><a class="nav-link" href="opcion3.html">Servicios</a></li>
+<li class="nav-item"><a class="nav-link" href="mision.html">Mision</a></li>
+<li class="nav-item"><a class="nav-link" href="opcion1.html">Contacto</a></li>
+<li class="nav-item"><a class="nav-link" href="FODA.html">FODA</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container py-5">
+<div class="row g-4">
+<div class="col-lg-6">
+<div class="contact-card">
+<h3 style="color:#003a73">Contáctanos</h3>
+<p>Completa el formulario y nos pondremos en contacto contigo.</p>
+<!-- Formulario (envío simulado) -->
+<form id="contactForm" onsubmit="event.preventDefault(); alert('Gracias — hemos recibido tu mensaje.');">
+<div class="mb-3">
+<label class="form-label">Nombre</label>
+<input class="form-control" required>
+</div>
+<div class="mb-3">
+<label class="form-label">Correo</label>
+<input type="email" class="form-control" required>
+</div>
+<div class="mb-3">
+<label class="form-label">Mensaje</label>
+<textarea class="form-control" rows="4" required></textarea>
+</div>
+<div class="d-flex gap-2">
+<button class="btn btn-primary btn-pill" type="submit">Enviar</button>
+<a class="btn btn-outline-success btn-pill" href="https://wa.me/525512345678?text=Hola%20JOPEX%2C%20quiero%20informaci%C3%B3n" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+</div>
+</form>
+
+<hr class="my-4">
+<h6>Información</h6>
+<p><i class="bi bi-telephone"></i> +52 55 1234 5678 &nbsp; <i class="bi bi-envelope"></i> info@jopex.com</p>
+</div>
+</div>
+
+<div class="col-lg-6">
+<div class="contact-card">
+<h5>Ubicación</h5>
+<!-- Mapa embebido (reemplaza la query por la ubicación real) -->
+<div style="width:100%; height:320px; border-radius:8px; overflow:hidden">
+<iframe src="https://www.google.com/maps?q=Mexico%20City&output=embed" style="border:0; width:100%; height:100%" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<p class="mt-3 mb-0"><strong>Horario:</strong> Lun-Vie 9:00 - 18:00</p>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="footer" style="background:#003a73; color:#fff; padding:20px"><div class="container text-center">© 2025 JOPEX</div></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html><!DOCTYPE html>
+<div class="stat-card text-center">
+<h3>6,000,000+</h3>
+<p>Niños que mueren cada año antes de los 5 años (estimación global)</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="stat-card text-center">
+<h3>2x</h3>
+<p>Probabilidad de mortalidad infantil en niños en pobreza vs ricos</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="stat-card text-center">
+<h3>Cobertura</h3>
+<p>Trabajo hacia la cobertura universal de salud y vacunas seguras.</p>
+</div>
+</div>
+</div>
+
+<div class="mt-4">
+<h5>Accesibilidad y Aceptabilidad</h5>
+<ul>
+<li>Servicios asequibles y físicamente accesibles para todas las personas.</li>
+<li>Servicios respetuosos de la ética médica y culturalmente apropiados.</li>
+</ul>
+</div>
+</div>
+
+<footer class="footer" style="background:#003a73; color:#fff; padding:20px"><div class="container text-center">© 2025 JOPEX</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
